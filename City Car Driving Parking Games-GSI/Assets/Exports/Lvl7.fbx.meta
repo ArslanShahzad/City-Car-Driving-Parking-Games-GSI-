@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: bf874079ab6b71d438ca400259a82147
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: cone_03
+    100002: cone_03 (1)
+    100004: cone_03 (2)
+    100006: cone_03 (3)
+    100008: cone_03 1
+    100010: cone_03 2
+    100012: cone_04
+    100014: cone_04 1
+    100016: cone_04 10
+    100018: cone_04 11
+    100020: cone_04 12
+    100022: cone_04 13
+    100024: cone_04 14
+    100026: cone_04 15
+    100028: cone_04 16
+    100030: cone_04 17
+    100032: cone_04 18
+    100034: cone_04 19
+    100036: cone_04 2
+    100038: cone_04 20
+    100040: cone_04 21
+    100042: cone_04 22
+    100044: cone_04 23
+    100046: cone_04 24
+    100048: cone_04 25
+    100050: cone_04 26
+    100052: cone_04 27
+    100054: cone_04 28
+    100056: cone_04 29
+    100058: cone_04 3
+    100060: cone_04 30
+    100062: cone_04 31
+    100064: cone_04 32
+    100066: cone_04 33
+    100068: cone_04 34
+    100070: cone_04 35
+    100072: cone_04 36
+    100074: cone_04 37
+    100076: cone_04 38
+    100078: cone_04 39
+    100080: cone_04 4
+    100082: cone_04 40
+    100084: cone_04 41
+    100086: cone_04 42
+    100088: cone_04 43
+    100090: cone_04 44
+    100092: cone_04 45
+    100094: cone_04 46
+    100096: cone_04 47
+    100098: cone_04 48
+    100100: cone_04 49
+    100102: cone_04 5
+    100104: cone_04 50
+    100106: cone_04 51
+    100108: cone_04 52
+    100110: cone_04 53
+    100112: cone_04 54
+    100114: cone_04 6
+    100116: cone_04 7
+    100118: cone_04 8
+    100120: cone_04 9
+    100122: container_green
+    100124: container_green 1
+    100126: container_yellow
+    100128: container_yellow 1
+    100130: crate_01
+    100132: crate_02
+    100134: crate_02 1
+    100136: dhool
+    100138: dhool 1
+    100140: dhool 2
+    100142: dhool 3
+    100144: dhool 4
+    100146: dhool 5
+    100148: dhool 6
+    100150: Finish_Point
+    100152: jump_02
+    100154: jump_02 1
+    100156: jump_02 2
+    100158: jump_02 3
+    100160: Level_513
+    100162: //RootNode
+    100164: mechanic_02 (1)
+    100166: mechanic_02_main
+    100168: mechanic_02_probe
+    100170: Plane
+    100172: Plane 1
+    100174: Spawn_Point
+    100176: Tower
+    100178: Tower 1
+    100180: Tower 2
+    100182: Tower 3
+    100184: wall
+    100186: wall 1
+    100188: wall 2
+    100190: wall 3
+    400000: cone_03
+    400002: cone_03 (1)
+    400004: cone_03 (2)
+    400006: cone_03 (3)
+    400008: cone_03 1
+    400010: cone_03 2
+    400012: cone_04
+    400014: cone_04 1
+    400016: cone_04 10
+    400018: cone_04 11
+    400020: cone_04 12
+    400022: cone_04 13
+    400024: cone_04 14
+    400026: cone_04 15
+    400028: cone_04 16
+    400030: cone_04 17
+    400032: cone_04 18
+    400034: cone_04 19
+    400036: cone_04 2
+    400038: cone_04 20
+    400040: cone_04 21
+    400042: cone_04 22
+    400044: cone_04 23
+    400046: cone_04 24
+    400048: cone_04 25
+    400050: cone_04 26
+    400052: cone_04 27
+    400054: cone_04 28
+    400056: cone_04 29
+    400058: cone_04 3
+    400060: cone_04 30
+    400062: cone_04 31
+    400064: cone_04 32
+    400066: cone_04 33
+    400068: cone_04 34
+    400070: cone_04 35
+    400072: cone_04 36
+    400074: cone_04 37
+    400076: cone_04 38
+    400078: cone_04 39
+    400080: cone_04 4
+    400082: cone_04 40
+    400084: cone_04 41
+    400086: cone_04 42
+    400088: cone_04 43
+    400090: cone_04 44
+    400092: cone_04 45
+    400094: cone_04 46
+    400096: cone_04 47
+    400098: cone_04 48
+    400100: cone_04 49
+    400102: cone_04 5
+    400104: cone_04 50
+    400106: cone_04 51
+    400108: cone_04 52
+    400110: cone_04 53
+    400112: cone_04 54
+    400114: cone_04 6
+    400116: cone_04 7
+    400118: cone_04 8
+    400120: cone_04 9
+    400122: container_green
+    400124: container_green 1
+    400126: container_yellow
+    400128: container_yellow 1
+    400130: crate_01
+    400132: crate_02
+    400134: crate_02 1
+    400136: dhool
+    400138: dhool 1
+    400140: dhool 2
+    400142: dhool 3
+    400144: dhool 4
+    400146: dhool 5
+    400148: dhool 6
+    400150: Finish_Point
+    400152: jump_02
+    400154: jump_02 1
+    400156: jump_02 2
+    400158: jump_02 3
+    400160: Level_513
+    400162: //RootNode
+    400164: mechanic_02 (1)
+    400166: mechanic_02_main
+    400168: mechanic_02_probe
+    400170: Plane
+    400172: Plane 1
+    400174: Spawn_Point
+    400176: Tower
+    400178: Tower 1
+    400180: Tower 2
+    400182: Tower 3
+    400184: wall
+    400186: wall 1
+    400188: wall 2
+    400190: wall 3
+    2100000: probs
+    2100002: probs_beton
+    2100004: No Name
+    2100006: probs_v1
+    2300000: cone_03
+    2300002: cone_03 (1)
+    2300004: cone_03 (2)
+    2300006: cone_03 (3)
+    2300008: cone_03 1
+    2300010: cone_03 2
+    2300012: cone_04
+    2300014: cone_04 1
+    2300016: cone_04 10
+    2300018: cone_04 11
+    2300020: cone_04 12
+    2300022: cone_04 13
+    2300024: cone_04 14
+    2300026: cone_04 15
+    2300028: cone_04 16
+    2300030: cone_04 17
+    2300032: cone_04 18
+    2300034: cone_04 19
+    2300036: cone_04 2
+    2300038: cone_04 20
+    2300040: cone_04 21
+    2300042: cone_04 22
+    2300044: cone_04 23
+    2300046: cone_04 24
+    2300048: cone_04 25
+    2300050: cone_04 26
+    2300052: cone_04 27
+    2300054: cone_04 28
+    2300056: cone_04 29
+    2300058: cone_04 3
+    2300060: cone_04 30
+    2300062: cone_04 31
+    2300064: cone_04 32
+    2300066: cone_04 33
+    2300068: cone_04 34
+    2300070: cone_04 35
+    2300072: cone_04 36
+    2300074: cone_04 37
+    2300076: cone_04 38
+    2300078: cone_04 39
+    2300080: cone_04 4
+    2300082: cone_04 40
+    2300084: cone_04 41
+    2300086: cone_04 42
+    2300088: cone_04 43
+    2300090: cone_04 44
+    2300092: cone_04 45
+    2300094: cone_04 46
+    2300096: cone_04 47
+    2300098: cone_04 48
+    2300100: cone_04 49
+    2300102: cone_04 5
+    2300104: cone_04 50
+    2300106: cone_04 51
+    2300108: cone_04 52
+    2300110: cone_04 53
+    2300112: cone_04 54
+    2300114: cone_04 6
+    2300116: cone_04 7
+    2300118: cone_04 8
+    2300120: cone_04 9
+    2300122: container_green
+    2300124: container_green 1
+    2300126: container_yellow
+    2300128: container_yellow 1
+    2300130: crate_01
+    2300132: crate_02
+    2300134: crate_02 1
+    2300136: dhool
+    2300138: dhool 1
+    2300140: dhool 2
+    2300142: dhool 3
+    2300144: dhool 4
+    2300146: dhool 5
+    2300148: dhool 6
+    2300150: Finish_Point
+    2300152: jump_02
+    2300154: jump_02 1
+    2300156: jump_02 2
+    2300158: jump_02 3
+    2300160: mechanic_02_main
+    2300162: mechanic_02_probe
+    2300164: Plane 1
+    2300166: Tower
+    2300168: Tower 1
+    2300170: Tower 2
+    2300172: Tower 3
+    2300174: wall
+    2300176: wall 1
+    2300178: wall 2
+    2300180: wall 3
+    3300000: cone_03
+    3300002: cone_03 (1)
+    3300004: cone_03 (2)
+    3300006: cone_03 (3)
+    3300008: cone_03 1
+    3300010: cone_03 2
+    3300012: cone_04
+    3300014: cone_04 1
+    3300016: cone_04 10
+    3300018: cone_04 11
+    3300020: cone_04 12
+    3300022: cone_04 13
+    3300024: cone_04 14
+    3300026: cone_04 15
+    3300028: cone_04 16
+    3300030: cone_04 17
+    3300032: cone_04 18
+    3300034: cone_04 19
+    3300036: cone_04 2
+    3300038: cone_04 20
+    3300040: cone_04 21
+    3300042: cone_04 22
+    3300044: cone_04 23
+    3300046: cone_04 24
+    3300048: cone_04 25
+    3300050: cone_04 26
+    3300052: cone_04 27
+    3300054: cone_04 28
+    3300056: cone_04 29
+    3300058: cone_04 3
+    3300060: cone_04 30
+    3300062: cone_04 31
+    3300064: cone_04 32
+    3300066: cone_04 33
+    3300068: cone_04 34
+    3300070: cone_04 35
+    3300072: cone_04 36
+    3300074: cone_04 37
+    3300076: cone_04 38
+    3300078: cone_04 39
+    3300080: cone_04 4
+    3300082: cone_04 40
+    3300084: cone_04 41
+    3300086: cone_04 42
+    3300088: cone_04 43
+    3300090: cone_04 44
+    3300092: cone_04 45
+    3300094: cone_04 46
+    3300096: cone_04 47
+    3300098: cone_04 48
+    3300100: cone_04 49
+    3300102: cone_04 5
+    3300104: cone_04 50
+    3300106: cone_04 51
+    3300108: cone_04 52
+    3300110: cone_04 53
+    3300112: cone_04 54
+    3300114: cone_04 6
+    3300116: cone_04 7
+    3300118: cone_04 8
+    3300120: cone_04 9
+    3300122: container_green
+    3300124: container_green 1
+    3300126: container_yellow
+    3300128: container_yellow 1
+    3300130: crate_01
+    3300132: crate_02
+    3300134: crate_02 1
+    3300136: dhool
+    3300138: dhool 1
+    3300140: dhool 2
+    3300142: dhool 3
+    3300144: dhool 4
+    3300146: dhool 5
+    3300148: dhool 6
+    3300150: Finish_Point
+    3300152: jump_02
+    3300154: jump_02 1
+    3300156: jump_02 2
+    3300158: jump_02 3
+    3300160: mechanic_02_main
+    3300162: mechanic_02_probe
+    3300164: Plane 1
+    3300166: Tower
+    3300168: Tower 1
+    3300170: Tower 2
+    3300172: Tower 3
+    3300174: wall
+    3300176: wall 1
+    3300178: wall 2
+    3300180: wall 3
+    4300000: Finish_Point
+    4300002: container_green
+    4300004: container_green
+    4300006: container_yellow
+    4300008: container_yellow
+    4300010: cone_03
+    4300012: cone_03
+    4300014: cone_03
+    4300016: cone_04
+    4300018: cone_04
+    4300020: cone_04
+    4300022: cone_04
+    4300024: cone_04
+    4300026: cone_04
+    4300028: cone_04
+    4300030: cone_04
+    4300032: cone_04
+    4300034: cone_04
+    4300036: cone_04
+    4300038: cone_04
+    4300040: cone_04
+    4300042: cone_04
+    4300044: cone_04
+    4300046: cone_04
+    4300048: cone_04
+    4300050: cone_04
+    4300052: cone_04
+    4300054: cone_04
+    4300056: cone_04
+    4300058: cone_04
+    4300060: cone_04
+    4300062: cone_04
+    4300064: cone_04
+    4300066: cone_04
+    4300068: cone_04
+    4300070: cone_04
+    4300072: cone_04
+    4300074: cone_04
+    4300076: cone_04
+    4300078: cone_04
+    4300080: cone_04
+    4300082: cone_04
+    4300084: cone_04
+    4300086: cone_04
+    4300088: cone_04
+    4300090: cone_04
+    4300092: cone_04
+    4300094: cone_04
+    4300096: cone_04
+    4300098: cone_04
+    4300100: cone_04
+    4300102: cone_04
+    4300104: cone_04
+    4300106: cone_04
+    4300108: cone_04
+    4300110: cone_04
+    4300112: cone_04
+    4300114: cone_04
+    4300116: cone_04
+    4300118: cone_04
+    4300120: cone_04
+    4300122: cone_04
+    4300124: cone_04
+    4300126: crate_01
+    4300128: crate_02
+    4300130: crate_02
+    4300132: jump_02
+    4300134: jump_02
+    4300136: jump_02
+    4300138: jump_02
+    4300140: dhool
+    4300142: dhool
+    4300144: dhool
+    4300146: dhool
+    4300148: dhool
+    4300150: dhool
+    4300152: dhool
+    4300154: Tower
+    4300156: Tower
+    4300158: Tower
+    4300160: Tower
+    4300162: wall
+    4300164: wall
+    4300166: wall
+    4300168: wall
+    4300170: Plane
+    4300172: cone_03 (1)
+    4300174: cone_03 (2)
+    4300176: cone_03 (3)
+    4300178: mechanic_02_main
+    4300180: mechanic_02_probe
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

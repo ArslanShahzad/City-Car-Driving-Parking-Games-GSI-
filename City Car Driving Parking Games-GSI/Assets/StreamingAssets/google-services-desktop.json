@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1085707189639",
+    "project_id": "car-parking-elegend",
+    "storage_bucket": "car-parking-elegend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085707189639:android:906bfc80c89b2d8fb52722",
+        "android_client_info": {
+          "package_name": "com.gg.real.car.parking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085707189639-1a35ehqrg1vlo4gr3lh31kghrng0hom7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXHCfGSVqgkwtRnJoR2HhQph2AVTwmeho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085707189639-1a35ehqrg1vlo4gr3lh31kghrng0hom7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

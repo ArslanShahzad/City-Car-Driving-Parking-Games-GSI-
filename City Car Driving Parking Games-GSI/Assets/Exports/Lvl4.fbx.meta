@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: cbacccd013d52584fb89e67746b1c3d1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Animated_Barrier_03 (3)
+    100002: Animated_Barrier_03 (4)
+    100004: Animated_Barrier_03 (5)
+    100006: barriar_01
+    100008: barriar_01 (1)
+    100010: barriar_01 (2)
+    100012: barriar_01 (3)
+    100014: barriar_01 1
+    100016: barriar_01 2
+    100018: barriar_01 3
+    100020: barriar_01 4
+    100022: barriar_01 5
+    100024: Barrier
+    100026: Barrier 1
+    100028: Barrier 2
+    100030: cevre
+    100032: container_01
+    100034: container_01_null
+    100036: container_01_null 1
+    100038: container_01_null 2
+    100040: container_01_null 3
+    100042: container_02
+    100044: container_02 (1)
+    100046: container_02 (2)
+    100048: demir_01
+    100050: demir_01 1
+    100052: demir_01 2
+    100054: demir_01 3
+    100056: demir_01 4
+    100058: demir_01 5
+    100060: duba_03
+    100062: duba_03 1
+    100064: duba_03 10
+    100066: duba_03 11
+    100068: duba_03 12
+    100070: duba_03 13
+    100072: duba_03 14
+    100074: duba_03 15
+    100076: duba_03 2
+    100078: duba_03 3
+    100080: duba_03 4
+    100082: duba_03 5
+    100084: duba_03 6
+    100086: duba_03 7
+    100088: duba_03 8
+    100090: duba_03 9
+    100092: duvar_01
+    100094: duvar_01 1
+    100096: duvar_01 2
+    100098: duvar_01 3
+    100100: duvar_02
+    100102: duvar_02 1
+    100104: duvar_02 2
+    100106: duvar_02 3
+    100108: finish
+    100110: kasa_01
+    100112: kasa_01 1
+    100114: level2
+    100116: //RootNode
+    100118: plaka_05
+    100120: Plane
+    100122: platform_01
+    100124: rampa_01
+    100126: rampa_01 1
+    100128: set_02
+    100130: set_02 1
+    100132: set_02 2
+    100134: stand
+    100136: stand 1
+    100138: stand 2
+    100140: start
+    400000: Animated_Barrier_03 (3)
+    400002: Animated_Barrier_03 (4)
+    400004: Animated_Barrier_03 (5)
+    400006: barriar_01
+    400008: barriar_01 (1)
+    400010: barriar_01 (2)
+    400012: barriar_01 (3)
+    400014: barriar_01 1
+    400016: barriar_01 2
+    400018: barriar_01 3
+    400020: barriar_01 4
+    400022: barriar_01 5
+    400024: Barrier
+    400026: Barrier 1
+    400028: Barrier 2
+    400030: cevre
+    400032: container_01
+    400034: container_01_null
+    400036: container_01_null 1
+    400038: container_01_null 2
+    400040: container_01_null 3
+    400042: container_02
+    400044: container_02 (1)
+    400046: container_02 (2)
+    400048: demir_01
+    400050: demir_01 1
+    400052: demir_01 2
+    400054: demir_01 3
+    400056: demir_01 4
+    400058: demir_01 5
+    400060: duba_03
+    400062: duba_03 1
+    400064: duba_03 10
+    400066: duba_03 11
+    400068: duba_03 12
+    400070: duba_03 13
+    400072: duba_03 14
+    400074: duba_03 15
+    400076: duba_03 2
+    400078: duba_03 3
+    400080: duba_03 4
+    400082: duba_03 5
+    400084: duba_03 6
+    400086: duba_03 7
+    400088: duba_03 8
+    400090: duba_03 9
+    400092: duvar_01
+    400094: duvar_01 1
+    400096: duvar_01 2
+    400098: duvar_01 3
+    400100: duvar_02
+    400102: duvar_02 1
+    400104: duvar_02 2
+    400106: duvar_02 3
+    400108: finish
+    400110: kasa_01
+    400112: kasa_01 1
+    400114: level2
+    400116: //RootNode
+    400118: plaka_05
+    400120: Plane
+    400122: platform_01
+    400124: rampa_01
+    400126: rampa_01 1
+    400128: set_02
+    400130: set_02 1
+    400132: set_02 2
+    400134: stand
+    400136: stand 1
+    400138: stand 2
+    400140: start
+    2100000: No Name
+    2100002: probs_v1
+    2100004: probs
+    2300000: barriar_01
+    2300002: barriar_01 (1)
+    2300004: barriar_01 (2)
+    2300006: barriar_01 (3)
+    2300008: barriar_01 1
+    2300010: barriar_01 2
+    2300012: barriar_01 3
+    2300014: barriar_01 4
+    2300016: barriar_01 5
+    2300018: Barrier
+    2300020: Barrier 1
+    2300022: Barrier 2
+    2300024: container_01
+    2300026: container_01_null
+    2300028: container_01_null 1
+    2300030: container_01_null 2
+    2300032: container_01_null 3
+    2300034: container_02
+    2300036: container_02 (1)
+    2300038: container_02 (2)
+    2300040: demir_01
+    2300042: demir_01 1
+    2300044: demir_01 2
+    2300046: demir_01 3
+    2300048: demir_01 4
+    2300050: demir_01 5
+    2300052: duba_03
+    2300054: duba_03 1
+    2300056: duba_03 10
+    2300058: duba_03 11
+    2300060: duba_03 12
+    2300062: duba_03 13
+    2300064: duba_03 14
+    2300066: duba_03 15
+    2300068: duba_03 2
+    2300070: duba_03 3
+    2300072: duba_03 4
+    2300074: duba_03 5
+    2300076: duba_03 6
+    2300078: duba_03 7
+    2300080: duba_03 8
+    2300082: duba_03 9
+    2300084: duvar_01
+    2300086: duvar_01 1
+    2300088: duvar_01 2
+    2300090: duvar_01 3
+    2300092: duvar_02
+    2300094: duvar_02 1
+    2300096: duvar_02 2
+    2300098: duvar_02 3
+    2300100: finish
+    2300102: kasa_01
+    2300104: kasa_01 1
+    2300106: plaka_05
+    2300108: Plane
+    2300110: rampa_01
+    2300112: rampa_01 1
+    2300114: set_02
+    2300116: set_02 1
+    2300118: set_02 2
+    2300120: stand
+    2300122: stand 1
+    2300124: stand 2
+    2300126: start
+    3300000: barriar_01
+    3300002: barriar_01 (1)
+    3300004: barriar_01 (2)
+    3300006: barriar_01 (3)
+    3300008: barriar_01 1
+    3300010: barriar_01 2
+    3300012: barriar_01 3
+    3300014: barriar_01 4
+    3300016: barriar_01 5
+    3300018: Barrier
+    3300020: Barrier 1
+    3300022: Barrier 2
+    3300024: container_01
+    3300026: container_01_null
+    3300028: container_01_null 1
+    3300030: container_01_null 2
+    3300032: container_01_null 3
+    3300034: container_02
+    3300036: container_02 (1)
+    3300038: container_02 (2)
+    3300040: demir_01
+    3300042: demir_01 1
+    3300044: demir_01 2
+    3300046: demir_01 3
+    3300048: demir_01 4
+    3300050: demir_01 5
+    3300052: duba_03
+    3300054: duba_03 1
+    3300056: duba_03 10
+    3300058: duba_03 11
+    3300060: duba_03 12
+    3300062: duba_03 13
+    3300064: duba_03 14
+    3300066: duba_03 15
+    3300068: duba_03 2
+    3300070: duba_03 3
+    3300072: duba_03 4
+    3300074: duba_03 5
+    3300076: duba_03 6
+    3300078: duba_03 7
+    3300080: duba_03 8
+    3300082: duba_03 9
+    3300084: duvar_01
+    3300086: duvar_01 1
+    3300088: duvar_01 2
+    3300090: duvar_01 3
+    3300092: duvar_02
+    3300094: duvar_02 1
+    3300096: duvar_02 2
+    3300098: duvar_02 3
+    3300100: finish
+    3300102: kasa_01
+    3300104: kasa_01 1
+    3300106: plaka_05
+    3300108: Plane
+    3300110: rampa_01
+    3300112: rampa_01 1
+    3300114: set_02
+    3300116: set_02 1
+    3300118: set_02 2
+    3300120: stand
+    3300122: stand 1
+    3300124: stand 2
+    3300126: start
+    4300000: start
+    4300002: kasa_01
+    4300004: finish
+    4300006: barriar_01
+    4300008: duba_03
+    4300010: duba_03
+    4300012: duba_03
+    4300014: duba_03
+    4300016: duba_03
+    4300018: duba_03
+    4300020: duba_03
+    4300022: duba_03
+    4300024: duba_03
+    4300026: duba_03
+    4300028: duba_03
+    4300030: duba_03
+    4300032: duba_03
+    4300034: set_02
+    4300036: duba_03
+    4300038: duba_03
+    4300040: duba_03
+    4300042: set_02
+    4300044: kasa_01
+    4300046: set_02
+    4300048: container_02
+    4300050: container_01
+    4300052: demir_01
+    4300054: demir_01
+    4300056: demir_01
+    4300058: demir_01
+    4300060: rampa_01
+    4300062: plaka_05
+    4300064: rampa_01
+    4300066: barriar_01
+    4300068: barriar_01
+    4300070: barriar_01
+    4300072: barriar_01
+    4300074: barriar_01
+    4300076: demir_01
+    4300078: container_01_null
+    4300080: container_01_null
+    4300082: container_01_null
+    4300084: container_01_null
+    4300086: demir_01
+    4300088: duvar_01
+    4300090: duvar_02
+    4300092: duvar_02
+    4300094: duvar_02
+    4300096: duvar_02
+    4300098: duvar_01
+    4300100: duvar_01
+    4300102: duvar_01
+    4300104: Plane
+    4300106: container_02 (1)
+    4300108: container_02 (2)
+    4300110: barriar_01 (1)
+    4300112: barriar_01 (2)
+    4300114: barriar_01 (3)
+    4300116: Barrier
+    4300118: stand
+    4300120: Barrier
+    4300122: stand
+    4300124: Barrier
+    4300126: stand
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

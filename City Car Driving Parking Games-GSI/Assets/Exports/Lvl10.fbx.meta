@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: 7042bf38825fcf04b9ee2d5ad8c8d586
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: container_01_null
+    100002: container_01_null 1
+    100004: container_02
+    100006: demir_01
+    100008: demir_01 1
+    100010: demir_01 2
+    100012: demir_01 3
+    100014: demir_01 4
+    100016: demir_01 5
+    100018: demir_01 6
+    100020: demir_01 7
+    100022: duba_03
+    100024: duba_03 1
+    100026: duba_03 10
+    100028: duba_03 11
+    100030: duba_03 12
+    100032: duba_03 13
+    100034: duba_03 14
+    100036: duba_03 15
+    100038: duba_03 16
+    100040: duba_03 17
+    100042: duba_03 18
+    100044: duba_03 19
+    100046: duba_03 2
+    100048: duba_03 20
+    100050: duba_03 21
+    100052: duba_03 22
+    100054: duba_03 23
+    100056: duba_03 24
+    100058: duba_03 25
+    100060: duba_03 26
+    100062: duba_03 27
+    100064: duba_03 28
+    100066: duba_03 29
+    100068: duba_03 3
+    100070: duba_03 30
+    100072: duba_03 31
+    100074: duba_03 32
+    100076: duba_03 33
+    100078: duba_03 34
+    100080: duba_03 35
+    100082: duba_03 36
+    100084: duba_03 37
+    100086: duba_03 38
+    100088: duba_03 39
+    100090: duba_03 4
+    100092: duba_03 40
+    100094: duba_03 41
+    100096: duba_03 42
+    100098: duba_03 43
+    100100: duba_03 44
+    100102: duba_03 45
+    100104: duba_03 46
+    100106: duba_03 47
+    100108: duba_03 48
+    100110: duba_03 49
+    100112: duba_03 5
+    100114: duba_03 50
+    100116: duba_03 51
+    100118: duba_03 52
+    100120: duba_03 53
+    100122: duba_03 54
+    100124: duba_03 55
+    100126: duba_03 56
+    100128: duba_03 57
+    100130: duba_03 58
+    100132: duba_03 59
+    100134: duba_03 6
+    100136: duba_03 60
+    100138: duba_03 61
+    100140: duba_03 62
+    100142: duba_03 63
+    100144: duba_03 64
+    100146: duba_03 65
+    100148: duba_03 66
+    100150: duba_03 67
+    100152: duba_03 68
+    100154: duba_03 69
+    100156: duba_03 7
+    100158: duba_03 70
+    100160: duba_03 71
+    100162: duba_03 72
+    100164: duba_03 73
+    100166: duba_03 8
+    100168: duba_03 9
+    100170: finish
+    100172: kasa_02
+    100174: kasa_02 1
+    100176: kasa_02 2
+    100178: kasa_02 3
+    100180: kasa_02 4
+    100182: kasa_02 5
+    100184: kasa_02 6
+    100186: level4
+    100188: //RootNode
+    100190: mechanic_01
+    100192: mechanic_01_main
+    100194: mechanic_01_probe
+    100196: mechanic_02
+    100198: mechanic_02_main
+    100200: mechanic_02_probe
+    100202: plaka_06
+    100204: plaka_06 1
+    100206: platform_01
+    100208: platform_01 1
+    100210: platform_01 2
+    100212: rampa_01
+    100214: rampa_01 1
+    100216: rampa_01 2
+    100218: rampa_01 3
+    100220: set_01
+    100222: set_01 1
+    100224: set_01 2
+    100226: set_01 3
+    100228: set_01 4
+    100230: set_01 5
+    100232: Start
+    100234: varil_01
+    100236: varil_01 1
+    400000: container_01_null
+    400002: container_01_null 1
+    400004: container_02
+    400006: demir_01
+    400008: demir_01 1
+    400010: demir_01 2
+    400012: demir_01 3
+    400014: demir_01 4
+    400016: demir_01 5
+    400018: demir_01 6
+    400020: demir_01 7
+    400022: duba_03
+    400024: duba_03 1
+    400026: duba_03 10
+    400028: duba_03 11
+    400030: duba_03 12
+    400032: duba_03 13
+    400034: duba_03 14
+    400036: duba_03 15
+    400038: duba_03 16
+    400040: duba_03 17
+    400042: duba_03 18
+    400044: duba_03 19
+    400046: duba_03 2
+    400048: duba_03 20
+    400050: duba_03 21
+    400052: duba_03 22
+    400054: duba_03 23
+    400056: duba_03 24
+    400058: duba_03 25
+    400060: duba_03 26
+    400062: duba_03 27
+    400064: duba_03 28
+    400066: duba_03 29
+    400068: duba_03 3
+    400070: duba_03 30
+    400072: duba_03 31
+    400074: duba_03 32
+    400076: duba_03 33
+    400078: duba_03 34
+    400080: duba_03 35
+    400082: duba_03 36
+    400084: duba_03 37
+    400086: duba_03 38
+    400088: duba_03 39
+    400090: duba_03 4
+    400092: duba_03 40
+    400094: duba_03 41
+    400096: duba_03 42
+    400098: duba_03 43
+    400100: duba_03 44
+    400102: duba_03 45
+    400104: duba_03 46
+    400106: duba_03 47
+    400108: duba_03 48
+    400110: duba_03 49
+    400112: duba_03 5
+    400114: duba_03 50
+    400116: duba_03 51
+    400118: duba_03 52
+    400120: duba_03 53
+    400122: duba_03 54
+    400124: duba_03 55
+    400126: duba_03 56
+    400128: duba_03 57
+    400130: duba_03 58
+    400132: duba_03 59
+    400134: duba_03 6
+    400136: duba_03 60
+    400138: duba_03 61
+    400140: duba_03 62
+    400142: duba_03 63
+    400144: duba_03 64
+    400146: duba_03 65
+    400148: duba_03 66
+    400150: duba_03 67
+    400152: duba_03 68
+    400154: duba_03 69
+    400156: duba_03 7
+    400158: duba_03 70
+    400160: duba_03 71
+    400162: duba_03 72
+    400164: duba_03 73
+    400166: duba_03 8
+    400168: duba_03 9
+    400170: finish
+    400172: kasa_02
+    400174: kasa_02 1
+    400176: kasa_02 2
+    400178: kasa_02 3
+    400180: kasa_02 4
+    400182: kasa_02 5
+    400184: kasa_02 6
+    400186: level4
+    400188: //RootNode
+    400190: mechanic_01
+    400192: mechanic_01_main
+    400194: mechanic_01_probe
+    400196: mechanic_02
+    400198: mechanic_02_main
+    400200: mechanic_02_probe
+    400202: plaka_06
+    400204: plaka_06 1
+    400206: platform_01
+    400208: platform_01 1
+    400210: platform_01 2
+    400212: rampa_01
+    400214: rampa_01 1
+    400216: rampa_01 2
+    400218: rampa_01 3
+    400220: set_01
+    400222: set_01 1
+    400224: set_01 2
+    400226: set_01 3
+    400228: set_01 4
+    400230: set_01 5
+    400232: Start
+    400234: varil_01
+    400236: varil_01 1
+    2100000: No Name
+    2100002: probs_v1
+    2300000: container_01_null
+    2300002: container_01_null 1
+    2300004: container_02
+    2300006: demir_01
+    2300008: demir_01 1
+    2300010: demir_01 2
+    2300012: demir_01 3
+    2300014: demir_01 4
+    2300016: demir_01 5
+    2300018: demir_01 6
+    2300020: demir_01 7
+    2300022: duba_03
+    2300024: duba_03 1
+    2300026: duba_03 10
+    2300028: duba_03 11
+    2300030: duba_03 12
+    2300032: duba_03 13
+    2300034: duba_03 14
+    2300036: duba_03 15
+    2300038: duba_03 16
+    2300040: duba_03 17
+    2300042: duba_03 18
+    2300044: duba_03 19
+    2300046: duba_03 2
+    2300048: duba_03 20
+    2300050: duba_03 21
+    2300052: duba_03 22
+    2300054: duba_03 23
+    2300056: duba_03 24
+    2300058: duba_03 25
+    2300060: duba_03 26
+    2300062: duba_03 27
+    2300064: duba_03 28
+    2300066: duba_03 29
+    2300068: duba_03 3
+    2300070: duba_03 30
+    2300072: duba_03 31
+    2300074: duba_03 32
+    2300076: duba_03 33
+    2300078: duba_03 34
+    2300080: duba_03 35
+    2300082: duba_03 36
+    2300084: duba_03 37
+    2300086: duba_03 38
+    2300088: duba_03 39
+    2300090: duba_03 4
+    2300092: duba_03 40
+    2300094: duba_03 41
+    2300096: duba_03 42
+    2300098: duba_03 43
+    2300100: duba_03 44
+    2300102: duba_03 45
+    2300104: duba_03 46
+    2300106: duba_03 47
+    2300108: duba_03 48
+    2300110: duba_03 49
+    2300112: duba_03 5
+    2300114: duba_03 50
+    2300116: duba_03 51
+    2300118: duba_03 52
+    2300120: duba_03 53
+    2300122: duba_03 54
+    2300124: duba_03 55
+    2300126: duba_03 56
+    2300128: duba_03 57
+    2300130: duba_03 58
+    2300132: duba_03 59
+    2300134: duba_03 6
+    2300136: duba_03 60
+    2300138: duba_03 61
+    2300140: duba_03 62
+    2300142: duba_03 63
+    2300144: duba_03 64
+    2300146: duba_03 65
+    2300148: duba_03 66
+    2300150: duba_03 67
+    2300152: duba_03 68
+    2300154: duba_03 69
+    2300156: duba_03 7
+    2300158: duba_03 70
+    2300160: duba_03 71
+    2300162: duba_03 72
+    2300164: duba_03 73
+    2300166: duba_03 8
+    2300168: duba_03 9
+    2300170: finish
+    2300172: kasa_02
+    2300174: kasa_02 1
+    2300176: kasa_02 2
+    2300178: kasa_02 3
+    2300180: kasa_02 4
+    2300182: kasa_02 5
+    2300184: kasa_02 6
+    2300186: mechanic_01_main
+    2300188: mechanic_01_probe
+    2300190: mechanic_02_main
+    2300192: mechanic_02_probe
+    2300194: plaka_06
+    2300196: plaka_06 1
+    2300198: rampa_01
+    2300200: rampa_01 1
+    2300202: rampa_01 2
+    2300204: rampa_01 3
+    2300206: set_01
+    2300208: set_01 1
+    2300210: set_01 2
+    2300212: set_01 3
+    2300214: set_01 4
+    2300216: set_01 5
+    2300218: Start
+    2300220: varil_01
+    2300222: varil_01 1
+    3300000: container_01_null
+    3300002: container_01_null 1
+    3300004: container_02
+    3300006: demir_01
+    3300008: demir_01 1
+    3300010: demir_01 2
+    3300012: demir_01 3
+    3300014: demir_01 4
+    3300016: demir_01 5
+    3300018: demir_01 6
+    3300020: demir_01 7
+    3300022: duba_03
+    3300024: duba_03 1
+    3300026: duba_03 10
+    3300028: duba_03 11
+    3300030: duba_03 12
+    3300032: duba_03 13
+    3300034: duba_03 14
+    3300036: duba_03 15
+    3300038: duba_03 16
+    3300040: duba_03 17
+    3300042: duba_03 18
+    3300044: duba_03 19
+    3300046: duba_03 2
+    3300048: duba_03 20
+    3300050: duba_03 21
+    3300052: duba_03 22
+    3300054: duba_03 23
+    3300056: duba_03 24
+    3300058: duba_03 25
+    3300060: duba_03 26
+    3300062: duba_03 27
+    3300064: duba_03 28
+    3300066: duba_03 29
+    3300068: duba_03 3
+    3300070: duba_03 30
+    3300072: duba_03 31
+    3300074: duba_03 32
+    3300076: duba_03 33
+    3300078: duba_03 34
+    3300080: duba_03 35
+    3300082: duba_03 36
+    3300084: duba_03 37
+    3300086: duba_03 38
+    3300088: duba_03 39
+    3300090: duba_03 4
+    3300092: duba_03 40
+    3300094: duba_03 41
+    3300096: duba_03 42
+    3300098: duba_03 43
+    3300100: duba_03 44
+    3300102: duba_03 45
+    3300104: duba_03 46
+    3300106: duba_03 47
+    3300108: duba_03 48
+    3300110: duba_03 49
+    3300112: duba_03 5
+    3300114: duba_03 50
+    3300116: duba_03 51
+    3300118: duba_03 52
+    3300120: duba_03 53
+    3300122: duba_03 54
+    3300124: duba_03 55
+    3300126: duba_03 56
+    3300128: duba_03 57
+    3300130: duba_03 58
+    3300132: duba_03 59
+    3300134: duba_03 6
+    3300136: duba_03 60
+    3300138: duba_03 61
+    3300140: duba_03 62
+    3300142: duba_03 63
+    3300144: duba_03 64
+    3300146: duba_03 65
+    3300148: duba_03 66
+    3300150: duba_03 67
+    3300152: duba_03 68
+    3300154: duba_03 69
+    3300156: duba_03 7
+    3300158: duba_03 70
+    3300160: duba_03 71
+    3300162: duba_03 72
+    3300164: duba_03 73
+    3300166: duba_03 8
+    3300168: duba_03 9
+    3300170: finish
+    3300172: kasa_02
+    3300174: kasa_02 1
+    3300176: kasa_02 2
+    3300178: kasa_02 3
+    3300180: kasa_02 4
+    3300182: kasa_02 5
+    3300184: kasa_02 6
+    3300186: mechanic_01_main
+    3300188: mechanic_01_probe
+    3300190: mechanic_02_main
+    3300192: mechanic_02_probe
+    3300194: plaka_06
+    3300196: plaka_06 1
+    3300198: rampa_01
+    3300200: rampa_01 1
+    3300202: rampa_01 2
+    3300204: rampa_01 3
+    3300206: set_01
+    3300208: set_01 1
+    3300210: set_01 2
+    3300212: set_01 3
+    3300214: set_01 4
+    3300216: set_01 5
+    3300218: Start
+    3300220: varil_01
+    3300222: varil_01 1
+    4300000: Start
+    4300002: finish
+    4300004: demir_01
+    4300006: demir_01
+    4300008: demir_01
+    4300010: demir_01
+    4300012: plaka_06
+    4300014: plaka_06
+    4300016: demir_01
+    4300018: demir_01
+    4300020: demir_01
+    4300022: demir_01
+    4300024: rampa_01
+    4300026: rampa_01
+    4300028: rampa_01
+    4300030: rampa_01
+    4300032: duba_03
+    4300034: duba_03
+    4300036: duba_03
+    4300038: duba_03
+    4300040: duba_03
+    4300042: duba_03
+    4300044: duba_03
+    4300046: duba_03
+    4300048: duba_03
+    4300050: duba_03
+    4300052: duba_03
+    4300054: duba_03
+    4300056: duba_03
+    4300058: duba_03
+    4300060: duba_03
+    4300062: duba_03
+    4300064: duba_03
+    4300066: duba_03
+    4300068: duba_03
+    4300070: duba_03
+    4300072: duba_03
+    4300074: duba_03
+    4300076: duba_03
+    4300078: duba_03
+    4300080: duba_03
+    4300082: duba_03
+    4300084: duba_03
+    4300086: duba_03
+    4300088: duba_03
+    4300090: duba_03
+    4300092: duba_03
+    4300094: duba_03
+    4300096: duba_03
+    4300098: duba_03
+    4300100: duba_03
+    4300102: duba_03
+    4300104: duba_03
+    4300106: duba_03
+    4300108: duba_03
+    4300110: duba_03
+    4300112: duba_03
+    4300114: duba_03
+    4300116: duba_03
+    4300118: duba_03
+    4300120: duba_03
+    4300122: duba_03
+    4300124: duba_03
+    4300126: duba_03
+    4300128: duba_03
+    4300130: duba_03
+    4300132: duba_03
+    4300134: duba_03
+    4300136: duba_03
+    4300138: duba_03
+    4300140: duba_03
+    4300142: duba_03
+    4300144: duba_03
+    4300146: duba_03
+    4300148: duba_03
+    4300150: duba_03
+    4300152: duba_03
+    4300154: duba_03
+    4300156: duba_03
+    4300158: duba_03
+    4300160: duba_03
+    4300162: duba_03
+    4300164: duba_03
+    4300166: duba_03
+    4300168: duba_03
+    4300170: duba_03
+    4300172: duba_03
+    4300174: duba_03
+    4300176: duba_03
+    4300178: set_01
+    4300180: set_01
+    4300182: set_01
+    4300184: set_01
+    4300186: kasa_02
+    4300188: set_01
+    4300190: duba_03
+    4300192: kasa_02
+    4300194: varil_01
+    4300196: kasa_02
+    4300198: kasa_02
+    4300200: kasa_02
+    4300202: set_01
+    4300204: kasa_02
+    4300206: container_02
+    4300208: varil_01
+    4300210: container_01_null
+    4300212: kasa_02
+    4300214: container_01_null
+    4300216: mechanic_02_main
+    4300218: mechanic_02_probe
+    4300220: mechanic_01_main
+    4300222: mechanic_01_probe
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

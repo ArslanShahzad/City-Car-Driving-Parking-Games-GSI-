@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: bbf195f7cfa010f4399796e1e9c8bca4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: cone_02
+    100002: cone_02 (1)
+    100004: cone_02 (10)
+    100006: cone_02 (11)
+    100008: cone_02 (12)
+    100010: cone_02 (2)
+    100012: cone_02 (3)
+    100014: cone_02 (4)
+    100016: cone_02 (5)
+    100018: cone_02 (6)
+    100020: cone_02 (7)
+    100022: cone_02 (8)
+    100024: cone_02 (9)
+    100026: cone_02 1
+    100028: cone_02 10
+    100030: cone_02 11
+    100032: cone_02 12
+    100034: cone_02 13
+    100036: cone_02 14
+    100038: cone_02 15
+    100040: cone_02 16
+    100042: cone_02 17
+    100044: cone_02 18
+    100046: cone_02 19
+    100048: cone_02 2
+    100050: cone_02 20
+    100052: cone_02 21
+    100054: cone_02 22
+    100056: cone_02 23
+    100058: cone_02 24
+    100060: cone_02 25
+    100062: cone_02 26
+    100064: cone_02 27
+    100066: cone_02 28
+    100068: cone_02 3
+    100070: cone_02 4
+    100072: cone_02 5
+    100074: cone_02 6
+    100076: cone_02 7
+    100078: cone_02 8
+    100080: cone_02 9
+    100082: container_green
+    100084: container_yellow
+    100086: crate_01
+    100088: crate_01 1
+    100090: crate_02
+    100092: crate_02 1
+    100094: dhool
+    100096: dhool 1
+    100098: dhool 2
+    100100: dhool 3
+    100102: dhool 4
+    100104: dhool 5
+    100106: dhool 6
+    100108: dhool 7
+    100110: Finish_Point
+    100112: Level_514
+    100114: //RootNode
+    100116: Plane
+    100118: Plane 1
+    100120: Spawn_Point
+    100122: Tower
+    100124: Tower 1
+    100126: Tower 2
+    100128: Tower 3
+    100130: wall
+    100132: wall 1
+    100134: wall 2
+    100136: wall 3
+    400000: cone_02
+    400002: cone_02 (1)
+    400004: cone_02 (10)
+    400006: cone_02 (11)
+    400008: cone_02 (12)
+    400010: cone_02 (2)
+    400012: cone_02 (3)
+    400014: cone_02 (4)
+    400016: cone_02 (5)
+    400018: cone_02 (6)
+    400020: cone_02 (7)
+    400022: cone_02 (8)
+    400024: cone_02 (9)
+    400026: cone_02 1
+    400028: cone_02 10
+    400030: cone_02 11
+    400032: cone_02 12
+    400034: cone_02 13
+    400036: cone_02 14
+    400038: cone_02 15
+    400040: cone_02 16
+    400042: cone_02 17
+    400044: cone_02 18
+    400046: cone_02 19
+    400048: cone_02 2
+    400050: cone_02 20
+    400052: cone_02 21
+    400054: cone_02 22
+    400056: cone_02 23
+    400058: cone_02 24
+    400060: cone_02 25
+    400062: cone_02 26
+    400064: cone_02 27
+    400066: cone_02 28
+    400068: cone_02 3
+    400070: cone_02 4
+    400072: cone_02 5
+    400074: cone_02 6
+    400076: cone_02 7
+    400078: cone_02 8
+    400080: cone_02 9
+    400082: container_green
+    400084: container_yellow
+    400086: crate_01
+    400088: crate_01 1
+    400090: crate_02
+    400092: crate_02 1
+    400094: dhool
+    400096: dhool 1
+    400098: dhool 2
+    400100: dhool 3
+    400102: dhool 4
+    400104: dhool 5
+    400106: dhool 6
+    400108: dhool 7
+    400110: Finish_Point
+    400112: Level_514
+    400114: //RootNode
+    400116: Plane
+    400118: Plane 1
+    400120: Spawn_Point
+    400122: Tower
+    400124: Tower 1
+    400126: Tower 2
+    400128: Tower 3
+    400130: wall
+    400132: wall 1
+    400134: wall 2
+    400136: wall 3
+    2100000: probs
+    2100002: probs_beton
+    2100004: No Name
+    2300000: cone_02
+    2300002: cone_02 (1)
+    2300004: cone_02 (10)
+    2300006: cone_02 (11)
+    2300008: cone_02 (12)
+    2300010: cone_02 (2)
+    2300012: cone_02 (3)
+    2300014: cone_02 (4)
+    2300016: cone_02 (5)
+    2300018: cone_02 (6)
+    2300020: cone_02 (7)
+    2300022: cone_02 (8)
+    2300024: cone_02 (9)
+    2300026: cone_02 1
+    2300028: cone_02 10
+    2300030: cone_02 11
+    2300032: cone_02 12
+    2300034: cone_02 13
+    2300036: cone_02 14
+    2300038: cone_02 15
+    2300040: cone_02 16
+    2300042: cone_02 17
+    2300044: cone_02 18
+    2300046: cone_02 19
+    2300048: cone_02 2
+    2300050: cone_02 20
+    2300052: cone_02 21
+    2300054: cone_02 22
+    2300056: cone_02 23
+    2300058: cone_02 24
+    2300060: cone_02 25
+    2300062: cone_02 26
+    2300064: cone_02 27
+    2300066: cone_02 28
+    2300068: cone_02 3
+    2300070: cone_02 4
+    2300072: cone_02 5
+    2300074: cone_02 6
+    2300076: cone_02 7
+    2300078: cone_02 8
+    2300080: cone_02 9
+    2300082: container_green
+    2300084: container_yellow
+    2300086: crate_01
+    2300088: crate_01 1
+    2300090: crate_02
+    2300092: crate_02 1
+    2300094: dhool
+    2300096: dhool 1
+    2300098: dhool 2
+    2300100: dhool 3
+    2300102: dhool 4
+    2300104: dhool 5
+    2300106: dhool 6
+    2300108: dhool 7
+    2300110: Finish_Point
+    2300112: Plane 1
+    2300114: Tower
+    2300116: Tower 1
+    2300118: Tower 2
+    2300120: Tower 3
+    2300122: wall
+    2300124: wall 1
+    2300126: wall 2
+    2300128: wall 3
+    3300000: cone_02
+    3300002: cone_02 (1)
+    3300004: cone_02 (10)
+    3300006: cone_02 (11)
+    3300008: cone_02 (12)
+    3300010: cone_02 (2)
+    3300012: cone_02 (3)
+    3300014: cone_02 (4)
+    3300016: cone_02 (5)
+    3300018: cone_02 (6)
+    3300020: cone_02 (7)
+    3300022: cone_02 (8)
+    3300024: cone_02 (9)
+    3300026: cone_02 1
+    3300028: cone_02 10
+    3300030: cone_02 11
+    3300032: cone_02 12
+    3300034: cone_02 13
+    3300036: cone_02 14
+    3300038: cone_02 15
+    3300040: cone_02 16
+    3300042: cone_02 17
+    3300044: cone_02 18
+    3300046: cone_02 19
+    3300048: cone_02 2
+    3300050: cone_02 20
+    3300052: cone_02 21
+    3300054: cone_02 22
+    3300056: cone_02 23
+    3300058: cone_02 24
+    3300060: cone_02 25
+    3300062: cone_02 26
+    3300064: cone_02 27
+    3300066: cone_02 28
+    3300068: cone_02 3
+    3300070: cone_02 4
+    3300072: cone_02 5
+    3300074: cone_02 6
+    3300076: cone_02 7
+    3300078: cone_02 8
+    3300080: cone_02 9
+    3300082: container_green
+    3300084: container_yellow
+    3300086: crate_01
+    3300088: crate_01 1
+    3300090: crate_02
+    3300092: crate_02 1
+    3300094: dhool
+    3300096: dhool 1
+    3300098: dhool 2
+    3300100: dhool 3
+    3300102: dhool 4
+    3300104: dhool 5
+    3300106: dhool 6
+    3300108: dhool 7
+    3300110: Finish_Point
+    3300112: Plane 1
+    3300114: Tower
+    3300116: Tower 1
+    3300118: Tower 2
+    3300120: Tower 3
+    3300122: wall
+    3300124: wall 1
+    3300126: wall 2
+    3300128: wall 3
+    4300000: Finish_Point
+    4300002: cone_02
+    4300004: cone_02
+    4300006: cone_02
+    4300008: cone_02
+    4300010: cone_02
+    4300012: cone_02
+    4300014: cone_02
+    4300016: cone_02
+    4300018: cone_02
+    4300020: cone_02
+    4300022: cone_02
+    4300024: cone_02
+    4300026: cone_02
+    4300028: cone_02
+    4300030: cone_02
+    4300032: cone_02
+    4300034: cone_02
+    4300036: cone_02
+    4300038: cone_02
+    4300040: cone_02
+    4300042: cone_02
+    4300044: cone_02
+    4300046: cone_02
+    4300048: cone_02
+    4300050: cone_02
+    4300052: cone_02
+    4300054: cone_02
+    4300056: cone_02
+    4300058: cone_02
+    4300060: crate_01
+    4300062: crate_01
+    4300064: crate_02
+    4300066: crate_02
+    4300068: container_green
+    4300070: container_yellow
+    4300072: dhool
+    4300074: dhool
+    4300076: dhool
+    4300078: dhool
+    4300080: dhool
+    4300082: dhool
+    4300084: dhool
+    4300086: dhool
+    4300088: Tower
+    4300090: Tower
+    4300092: Tower
+    4300094: Tower
+    4300096: wall
+    4300098: wall
+    4300100: wall
+    4300102: wall
+    4300104: Plane
+    4300106: cone_02 (1)
+    4300108: cone_02 (2)
+    4300110: cone_02 (3)
+    4300112: cone_02 (4)
+    4300114: cone_02 (5)
+    4300116: cone_02 (6)
+    4300118: cone_02 (7)
+    4300120: cone_02 (8)
+    4300122: cone_02 (9)
+    4300124: cone_02 (10)
+    4300126: cone_02 (11)
+    4300128: cone_02 (12)
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
