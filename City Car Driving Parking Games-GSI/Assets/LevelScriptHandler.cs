@@ -15,6 +15,7 @@ public class LevelScriptHandler : MonoBehaviour
     public GameObject ModeSelection;
     public static bool isAdsshow = false;
     // Start is called before the first frame update
+
     void Start()
     {
         if (PlayerPrefs.GetInt("UnlockDrivingLevels") < 9)
