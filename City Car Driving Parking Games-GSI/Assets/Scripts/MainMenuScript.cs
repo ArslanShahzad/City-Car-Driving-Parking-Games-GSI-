@@ -13,18 +13,18 @@ public class MainMenuScript : MonoBehaviour
     void Start()
     {
         // print("CurrentFaileeeeeeee" + GameStats.Instance.FailedLevel);
-        if (SaveValues.isBackFromGameplay || Splash.isBackFromGameplay)
-        {
-            PlayBtnClick();
+        //if (SaveValues.isBackFromGameplay || Splash.isBackFromGameplay)
+        //{
+        //    PlayBtnClick();
 
-        }
-        else
-        {
-            MenuManager.instance.mainMenupanel.SetActive(true);
-            MenuManager.instance.modeSelectionPanel.SetActive(false);
+        //}
+        //else
+        //{
+        //    MenuManager.instance.mainMenupanel.SetActive(true);
+        //    MenuManager.instance.modeSelectionPanel.SetActive(false);
 
 
-        }
+        //}
         if (!Splash.isoneTime)
         {
 
@@ -80,7 +80,7 @@ public class MainMenuScript : MonoBehaviour
 
     public void PrivacyPolicy()
     {
-        Application.OpenURL("https://gamesonicsinc.com/privacy-policy/");
+        Application.OpenURL("https://gamesonicsinc.com/?page_id=3");
     }
     public void RateUs()
     {

@@ -71,6 +71,8 @@ public class VehicelController : MonoBehaviour
     public int RemainingCoins;
     public Animator playeranim;
     private bool isEnd;
+
+    public Text speedText;
     void Start()
     {
         Instance = this;
@@ -108,6 +110,8 @@ public class VehicelController : MonoBehaviour
         GetInput();
         Steer();
         UpdateWheelPoses();
+
+        speedText.text = CurrentSpeed.ToString("000");
     }
 
     private void CalculateSpeed()
