@@ -309,8 +309,9 @@ public class VehicelController : MonoBehaviour
                     PlayerPrefs.SetInt("SaveFailedLvl" + i, SaveValues.instance.FailedLvl[i]);
                 }
             }
-           // Firebase.Analytics.FirebaseAnalytics.LogEvent("level_fail" + GameStats.Instance.CurrentLevel);
+            // Firebase.Analytics.FirebaseAnalytics.LogEvent("level_fail" + GameStats.Instance.CurrentLevel);
             //print("level_fail" + GameStats.Instance.CurrentLevel);
+          
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -340,7 +341,7 @@ public class VehicelController : MonoBehaviour
             }
         }
     }
-    void LevelFinish()
+    public void LevelFinish()
     {
         isEnd = true;
         CarsController.instance.Brake = true;

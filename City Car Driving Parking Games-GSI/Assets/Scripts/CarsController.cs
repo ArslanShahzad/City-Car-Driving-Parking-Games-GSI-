@@ -37,16 +37,22 @@ public class CarsController : MonoBehaviour
         startPos = player.transform.position;
         startRot = player.transform.rotation;
 
-        if (!LevelScriptHandler.isDrivingLevels)
+        if (LevelScriptHandler.SelectedMode == 0)
         {
-            int lvlno = GameStats.Instance.CurrentLevel + 1;
-            currentlvl.text ="LEVEL : " + lvlno.ToString();
-        }
-        else
-        {
-           int currentobj = PlayerPrefs.GetInt("DrivingLevel");
+            int currentobj = PlayerPrefs.GetInt("DrivingLevel");
             currentobj++;
             currentlvl.text = "LEVEL : " + currentobj.ToString();
+        }
+        else if (LevelScriptHandler.SelectedMode == 1)
+        {
+           int currentobj = PlayerPrefs.GetInt("ParallelLevel");
+            currentobj++;
+            currentlvl.text = "LEVEL : " + currentobj.ToString();
+        }
+        else if (LevelScriptHandler.SelectedMode == 2)
+        {
+            int lvlno = GameStats.Instance.CurrentLevel + 1;
+            currentlvl.text = "LEVEL : " + lvlno.ToString();
         }
 
         if (LevelManager.isreveseCheck)

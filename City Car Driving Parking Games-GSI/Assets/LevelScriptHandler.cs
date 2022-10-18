@@ -7,13 +7,15 @@ using GoogleMobileAds.Api;
 
 public class LevelScriptHandler : MonoBehaviour
 {
-    public static bool isDrivingLevels = false;
     public GameObject LoadingPanel;
 
     public Button[] DrivingLevels;
+    public Button[] parallelParkingLevels;
     public static bool isDrivingLevelCompleted;
     public GameObject ModeSelection;
     public static bool isAdsshow = false;
+
+    public static int SelectedMode = 0;
     // Start is called before the first frame update
 
     void Start()
@@ -33,6 +35,25 @@ public class LevelScriptHandler : MonoBehaviour
                 DrivingLevels[i].interactable = true;
             }
         }
+
+        // ParallelParking Level
+        if (PlayerPrefs.GetInt("UnlockParallelParkingLevels") < 4)
+        {
+            for (int i = 0; i <= PlayerPrefs.GetInt("UnlockParallelParkingLevels"); i++)
+            {
+                parallelParkingLevels[i].interactable = true;
+            }
+        }
+        else
+        {
+            PlayerPrefs.SetInt("UnlockParallelParkingLevels", 4);
+            for (int i = 0; i <= PlayerPrefs.GetInt("UnlockParallelParkingLevels"); i++)
+            {
+                parallelParkingLevels[i].interactable = true;
+            }
+        }
+
+
 
         if (isDrivingLevelCompleted)
         {
@@ -67,12 +88,20 @@ public class LevelScriptHandler : MonoBehaviour
 
     public void OnDrivingLevelSelection(int index)
     {
-        isDrivingLevels = true;
+        SelectedMode = 0;
         PlayerPrefs.SetInt("DrivingLevel",index);
         AdScript.adScript.RemoveBanner();
 
         LoadingPanel.SetActive(true);
         SceneManager.LoadSceneAsync("GamePlay");
     }
+    public void OnparallelLevelSelection(int index)
+    {
+        SelectedMode = 1;
+        PlayerPrefs.SetInt("ParallelLevel", index);
+        AdScript.adScript.RemoveBanner();
 
+        LoadingPanel.SetActive(true);
+        SceneManager.LoadSceneAsync("GamePlay");
+    }
 }

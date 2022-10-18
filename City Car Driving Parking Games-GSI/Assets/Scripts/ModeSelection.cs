@@ -8,6 +8,7 @@ public class ModeSelection : MonoBehaviour
     public Button[] modeLock;
 
     public GameObject DrivingModePanel;
+    public GameObject parallelModePanel;
     private void Start()
     {
         //  print("CurrentLevel"+g)
@@ -32,29 +33,37 @@ public class ModeSelection : MonoBehaviour
             SaveValues.isClassicMode = false;
             SaveValues.isModernMode = false;
             SaveValues.isChallengeMode = false;
-            LevelScriptHandler.isDrivingLevels = true;
+            LevelScriptHandler.SelectedMode = 0;
         }
         else if (current == 1)
         {
-            SaveValues.isClassicMode = true;
+            parallelModePanel.SetActive(true);
+            SaveValues.isClassicMode = false;
             SaveValues.isModernMode = false;
             SaveValues.isChallengeMode = false;
-            LevelScriptHandler.isDrivingLevels = false;
+            LevelScriptHandler.SelectedMode = 1;
 
         }
         else if (current == 2)
         {
-            SaveValues.isClassicMode = false;
-            SaveValues.isModernMode = true;
+            SaveValues.isClassicMode = true;
+            SaveValues.isModernMode = false;
             SaveValues.isChallengeMode = false;
-            LevelScriptHandler.isDrivingLevels = false;
+            LevelScriptHandler.SelectedMode = 2;
         }
         else if (current == 3)
         {
             SaveValues.isClassicMode = false;
+            SaveValues.isModernMode = true;
+            SaveValues.isChallengeMode = false;
+            LevelScriptHandler.SelectedMode = 3;
+        }
+        else if (current == 4)
+        {
+            SaveValues.isClassicMode = false;
             SaveValues.isModernMode = false;
             SaveValues.isChallengeMode = true;
-            LevelScriptHandler.isDrivingLevels = false;
+            LevelScriptHandler.SelectedMode = 4;
         }
 
         print("MenuManager.instance.modeSelected.Length     + " + MenuManager.instance.modeSelected.Length);

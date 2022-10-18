@@ -51,32 +51,71 @@ public class LevelManager : MonoBehaviour
     public Sprite zebraCrossing;
     public GameObject plusPoints;
     public GameObject MinusPoints;
+
+    // Parallal Parking
+    public GameObject[] ParallParkingLevels;
+    public Transform[] ParallalParkingPosition;
+    public int parallalParkingCounter =0;
+
+
     private void Awake()
     {
         Player[GaragePanel.CarCounter].SetActive(true);
         instance = this;
 
+    //    LevelScriptHandler.SelectedMode = 2;
 
-        if (!LevelScriptHandler.isDrivingLevels)
+       // if (LevelScriptHandler.SelectedMode == 0)
+       // {
+       //     if (Application.isEditor)
+       //     {
+       //         if (isManualSetLvl)
+       //         {
+       //             GameStats.Instance.CurrentLevel = manualLvlNo;
+       //             GameStats.Instance.UnlockLevel = manualLvlNo;
+       //         }
+       //     }
+       //     GameObject lvl = levelObj[GameStats.Instance.CurrentLevel];
+       //     currentobj = Instantiate(lvl);
+       //     if (currentobj.GetComponent<LevelDescription>())
+       //         isreveseCheck = currentobj.GetComponent<LevelDescription>().isreveseCheck;
+       // }
+       // else if (LevelScriptHandler.SelectedMode == 1)
+       // {
+       //     currentobj = DrivingLevels[PlayerPrefs.GetInt("DrivingLevel")] ;
+       //     currentobj.SetActive(true);
+            
+       ////     ("Driving Level Action");
+       // }
+
+        switch (LevelScriptHandler.SelectedMode)
         {
-            if (Application.isEditor)
-            {
-                if (isManualSetLvl)
+            case 0:
+
+                currentobj = DrivingLevels[PlayerPrefs.GetInt("DrivingLevel")];
+                currentobj.SetActive(true);
+              
+                break;
+            case 1:
+                currentobj = ParallParkingLevels[PlayerPrefs.GetInt("ParallelLevel")];
+                currentobj.SetActive(true);
+                break;
+            case 2:
+                if (Application.isEditor)
                 {
-                    GameStats.Instance.CurrentLevel = manualLvlNo;
-                    GameStats.Instance.UnlockLevel = manualLvlNo;
+                    if (isManualSetLvl)
+                    {
+                        GameStats.Instance.CurrentLevel = manualLvlNo;
+                        GameStats.Instance.UnlockLevel = manualLvlNo;
+                    }
                 }
-            }
-            GameObject lvl = levelObj[GameStats.Instance.CurrentLevel];
-            currentobj = Instantiate(lvl);
-            if (currentobj.GetComponent<LevelDescription>())
-                isreveseCheck = currentobj.GetComponent<LevelDescription>().isreveseCheck;
-        }
-        else
-        {
-            currentobj = DrivingLevels[PlayerPrefs.GetInt("DrivingLevel")] ;
-            currentobj.SetActive(true);
-            print("Driving Level Action");
+                GameObject lvl = levelObj[GameStats.Instance.CurrentLevel];
+                currentobj = Instantiate(lvl);
+                if (currentobj.GetComponent<LevelDescription>())
+                    isreveseCheck = currentobj.GetComponent<LevelDescription>().isreveseCheck;
+                break;
+            default:
+                break;
         }
 
     }
@@ -186,17 +225,36 @@ public class LevelManager : MonoBehaviour
     bool isNextClick;
     public void LevelSuccessFulCalBack()
     {
-        if (!LevelScriptHandler.isDrivingLevels)
+        if (LevelScriptHandler.SelectedMode == 0)
+        {
+           
+
+            print("Driving School Level COmplete =-----------------------------------------");
+            int index = PlayerPrefs.GetInt("DrivingLevel");
+            index++;
+            print("Driving School Level Index =----------------------------------------- " + index);
+            if (PlayerPrefs.GetInt("UnlockDrivingLevels") < index)
+            {
+                PlayerPrefs.SetInt("UnlockDrivingLevels", index);
+            }
+        }
+        else if (LevelScriptHandler.SelectedMode == 1)
+        {
+
+            print("Driving School Level COmplete =-----------------------------------------");
+            int index = PlayerPrefs.GetInt("ParallelLevel");
+            index++;
+            print("Driving School Level Index =----------------------------------------- " + index);
+            if (PlayerPrefs.GetInt("UnlockParallelParkingLevels") < index)
+            {
+                PlayerPrefs.SetInt("UnlockParallelParkingLevels", index);
+            }
+        }
+        else if (LevelScriptHandler.SelectedMode == 2)
         {
             if (GameStats.Instance.CurrentLevel < 119)
             {
                 PlayerPrefs.SetInt("CurrentUnlock", GameStats.Instance.CurrentLevel);
-
-                //if (GameStats.Instance.Tutorial == 0)
-                //{
-                //    GameStats.Instance.Tutorial = 1;
-                //    LevelSuccessFulCalBack();
-                //}
 
                 if (!SaveValues.instance.unlockLvl.Contains(PlayerPrefs.GetInt("CurrentUnlock")))
                 {
@@ -223,18 +281,6 @@ public class LevelManager : MonoBehaviour
                 SceneManager.LoadScene("GamePlay");
             }
         }
-        else
-        {
-            print("Driving School Level COmplete =-----------------------------------------");
-            int index = PlayerPrefs.GetInt("DrivingLevel");
-            index++;
-            print("Driving School Level Index =----------------------------------------- " + index);
-            if (PlayerPrefs.GetInt("UnlockDrivingLevels") < index)
-            {
-                PlayerPrefs.SetInt("UnlockDrivingLevels",index);
-            }
-            
-        }
 
     }
     public void NextLvlClick()
@@ -243,8 +289,43 @@ public class LevelManager : MonoBehaviour
 
         isAdShow = false;
         AdScript.adScript.RemoveBanner();
-        if (!LevelScriptHandler.isDrivingLevels)
+        if (LevelScriptHandler.SelectedMode == 0)
         {
+            
+
+            int index = PlayerPrefs.GetInt("DrivingLevel");
+            index++;
+            if (index < DrivingLevels.Length)
+            {
+                PlayerPrefs.SetInt("DrivingLevel", index);
+                SceneManager.LoadScene("GamePlay");
+            }
+            else
+            {
+                LevelScriptHandler.isDrivingLevelCompleted = true;
+                SceneManager.LoadScene("MainMenu");
+            }
+        }
+        else if (LevelScriptHandler.SelectedMode == 1)
+        {
+            int index = PlayerPrefs.GetInt("ParallelLevel");
+            index++;
+            if(index < ParallParkingLevels.Length)
+            {
+                PlayerPrefs.SetInt("ParallelLevel", index);
+                SceneManager.LoadScene("GamePlay");
+            }
+            else
+            {
+                LevelScriptHandler.isDrivingLevelCompleted = true;
+                SceneManager.LoadScene("MainMenu");
+            }
+            
+
+        }
+        else if (LevelScriptHandler.SelectedMode == 2)
+        {
+
             if (GameStats.Instance.CurrentLevel < 120 && !isNextClick)
             {
                 //if (GameStats.Instance.Tutorial == 0)
@@ -298,25 +379,9 @@ public class LevelManager : MonoBehaviour
                 }
                 isNextClick = true;
             }
-        }
-        else
-        {
-            int index = PlayerPrefs.GetInt("DrivingLevel");
-            index++;
-            if(index < DrivingLevels.Length)
-            {
-                PlayerPrefs.SetInt("DrivingLevel",index);
-                SceneManager.LoadScene("GamePlay");
-            }
-            else
-            {
-                LevelScriptHandler.isDrivingLevelCompleted = true;
-                SceneManager.LoadScene("MainMenu");
-            }
-            
 
         }
-        
+
     }
     public void GotoHomeFromLevelComp()
     {
@@ -567,4 +632,23 @@ public class LevelManager : MonoBehaviour
         }
     }
   
+
+    public void ParallalParkingHandler(bool isIncreament)
+    {
+
+        if (isIncreament)
+        {
+            parallalParkingCounter++;
+            if(parallalParkingCounter > 3)
+            {
+                VehicelController.Instance.LevelFinish();
+                print("Level Completed");
+            }
+        }
+        else
+        {
+            parallalParkingCounter--;
+        }
+
+    }
 }
